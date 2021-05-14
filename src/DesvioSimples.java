@@ -13,6 +13,11 @@ public class DesvioSimples {
 		idade = leitor.nextInt();
 		System.out.println("Deixe-me verificar sua idade...");
 		/*Aqui devemos criar uma solução para verificar a idade do usuário*/
+		//Idade é maior ou igual a 12
+		if (idade>=12) {
+			//teste verdadeiro
+			System.out.println("Você pode jogar");
+		}
 		
 		leitor.close();
 
